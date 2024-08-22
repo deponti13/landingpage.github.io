@@ -1,0 +1,35 @@
+@import "/styles/mixins/colors.scss";
+
+.container {
+ padding: 28px 90px;
+ width: 100%;
+ background-color: $green-color;
+ border-bottom: 0.5px solid $gray-color;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.menu {
+    
+    font-size: 28px;
+    color: $blue-color;
+}
+        
+    
+
+.logotipo{
+    text-align: center;
+
+}
+
+
+.button{
+    padding: 15px 50px;
+    background-color: #042940;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+
+}
